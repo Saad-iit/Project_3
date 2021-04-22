@@ -46,8 +46,46 @@ h1{
 h3 {
 	font-family: 'New Tegomin', serif;
 }
+
 #backgorundEdu p{
 	color: black;
+}
+@media only screen and (max-width:500px) {
+  /* Mobile: */
+  li {
+    font-size: 12px;
+  }
+  #UniInfo {
+	text-align: center;
+	padding-right: auto;
+	padding-bottom: 80%;
+	margin-left: auto;
+    margin-right: auto;
+  }
+  #Vidframe{
+	  width: 250px; 
+	  height: 250px;
+	  padding-top: 13%;
+	margin-left: -50%;
+    margin-right: 50%;
+  }
+  
+}
+@media only screen and (max-width:800px) {
+  /* Tablets: */
+  #UniInfo {
+	text-align: center;
+	padding-right: auto;
+	padding-bottom: 15%;
+	margin-left: auto;
+    margin-right: auto;
+  }
+  #Vidframe{
+	padding-right: auto;
+	padding-bottom: auto;
+	margin-left: auto;
+    margin-right: 35%;
+  }
 }
 #info ul li{
 	text-align: center;
@@ -62,6 +100,7 @@ h3 {
     height: 120px;
 	text-align: center;
 	left:  5%;
+	
 }
 #backgorundExper{
 	position: relative;
@@ -96,13 +135,13 @@ h3 {
 	top: -134px;
 }
 #Uni img{
- width: 300px;
+	width: 300px;
 	height: 190px;
-border: 1px solid #ffffff;
-  border-radius: 50%;
-  padding: 5px;
-  background-color: white;
-  margin: 2%;
+	border: 1px solid #ffffff;
+	border-radius: 50%;
+	padding: 5px;
+    background-color: white;
+	margin: 2%;
   
 }
 #Uni img:hover {
@@ -121,6 +160,7 @@ border: 1px solid #ffffff;
 	position: relative;
 	bottom: 80px;
 	left:  20%;
+	
 }
 p{
 	color: white;
