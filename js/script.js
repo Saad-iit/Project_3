@@ -1,5 +1,9 @@
 let map;
 
+$(function() {
+    $(".rslides").responsiveSlides();
+  });
+ 
 function initMap() {
   const paris = {lat: 48.862677512797156, lng: 2.2941865662724474};
   const chicago = {lat:41.89552258490193, lng:-87.62554129549383};
@@ -29,4 +33,3 @@ function initMap() {
   });
  
 }
-
