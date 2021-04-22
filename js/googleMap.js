@@ -1,6 +1,9 @@
 let map;
 
 function initMap() {
+	const paris = {lat: 48.862677512797156, lng: 2.2941865662724474}
+	const chicago = {lat:41.89552258490193, lng:-87.62554129549383}
+	const applehq = {lat:37.3320127724582,lng: -122.03089027320335}
   map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: 40.76, lng: -73.983 },
     zoom: 15,
