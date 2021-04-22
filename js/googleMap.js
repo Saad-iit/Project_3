@@ -1,48 +1,32 @@
 let map;
 
 function initMap() {
-	const paris = {lat: 48.862677512797156, lng: 2.2941865662724474}
-	const chicago = {lat:41.89552258490193, lng:-87.62554129549383}
-	const applehq = {lat:37.3320127724582,lng: -122.03089027320335}
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 40.76, lng: -73.983 },
-    zoom: 15,
-    mapTypeId: "satellite",
-    heading: 90,
-    tilt: 45,
-  });
-  Tower = new google.maps.Marker({
+  const paris = {lat: 48.862677512797156, lng: 2.2941865662724474};
+  const chicago = {lat:41.89552258490193, lng:-87.62554129549383};
+  const applehq = {lat:37.3320127724582,lng: -122.03089027320335};
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 2,
     center: paris,
-    zoom: 15,
-    mapTypeId: "satellite",
-    heading: 90,
-    tilt: 45,
   });
-    bean = new google.maps.Marker({
-    center: chicago,
-    zoom: 15,
-    mapTypeId: "satellite",
-    heading: 90,
-    tilt: 45,
+  const towerMark = new google.maps.Marker({
+    position: paris,
+    map: map,
+	animation: google.maps.Animation.DROP,
+	title: 'Eiffel Tower'
   });
-     apple = new google.maps.Marker({
-    center: applehq,
-    zoom: 15,
-    mapTypeId: "satellite",
-    heading: 90,
-    tilt: 45,
+    const beanMark = new google.maps.Marker({
+    position: chicago,
+    map: map,
+	animation: google.maps.Animation.DROP,
+	title: 'Chicago Bean'
   });
-  
+     const apple = new google.maps.Marker({
+    position: applehq,
+    map: map,
+	animation: google.maps.Animation.DROP,
+	title: 'Apple Headquarters'
+  });
+ 
 }
 
-function rotate90() {
-  const heading = map.getHeading() || 0;
-  map.setHeading(heading + 90);
-}
-
-function autoRotate() {
-  // Determine if we're showing aerial imagery.
-  if (map.getTilt() !== 0) {
-    window.setInterval(rotate90, 3000);
-  }
-}
