@@ -11,6 +11,28 @@ function initMap() {
     heading: 90,
     tilt: 45,
   });
+  Tower = new google.maps.Marker({
+    center: paris,
+    zoom: 15,
+    mapTypeId: "satellite",
+    heading: 90,
+    tilt: 45,
+  });
+    bean = new google.maps.Marker({
+    center: chicago,
+    zoom: 15,
+    mapTypeId: "satellite",
+    heading: 90,
+    tilt: 45,
+  });
+     apple = new google.maps.Marker({
+    center: applehq,
+    zoom: 15,
+    mapTypeId: "satellite",
+    heading: 90,
+    tilt: 45,
+  });
+  
 }
 
 function rotate90() {
