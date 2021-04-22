@@ -177,3 +177,9 @@ border: 1px solid #ffffff;
 #Hobbies img:hover {
   box-shadow: 0 0 40px 6px rgba(0, 140, 186, 0.5);
 }
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
