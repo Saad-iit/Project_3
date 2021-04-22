@@ -1,0 +1,139 @@
+.table {
+  display: table;   
+  margin: 0 auto;
+  }
+nav#links #onpage {
+  background-color: rgb(255, 0, 0);
+  border-radius: 15px;
+  color: #ffffff;
+  }
+nav#links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden
+  }
+ nav#links ul li {
+  float: left;
+  margin: 19px;
+  width: 25%;
+  }
+
+nav#links ul li a {  
+  display: block;
+  font-weight:bold;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 15px;
+  width: 100px;
+  padding: 14px;
+  background-color: rgb(27, 204, 198);
+  color: #ffffff;
+  }
+
+nav#links ul li a:hover {  
+  background-color: rgb(230, 135, 135);
+  border-radius: 15px;
+  text-transform: uppercase;
+  }
+body {
+	background-color: gray;
+	text-align: center;
+}
+h1{
+	font-family: 'Libre Baskerville', serif;
+}
+h3 {
+	font-family: 'New Tegomin', serif;
+}
+#backgorundEdu p{
+	color: black;
+}
+#info ul li{
+	text-align: center;
+	list-style-type: none;
+	margin-left: -11%;
+}
+#backgorundInfo{
+	position: relative;
+	color: white;
+	background-color: purple;
+	width: 40%;
+    height: 120px;
+	text-align: center;
+	left:  5%;
+}
+#backgorundExper{
+	position: relative;
+	color: white;
+	background-color: red;
+	width: 40%;
+    height: 120px;
+	left:  5%;
+}
+#backgorundSkills{
+	position: relative;
+	color: white;
+	background-color: orange;
+	width: 40%;
+    height: 120px;
+	left:  50%;
+    top: -277px;
+}
+#backgorundVol{
+	position: relative;
+	color: white;
+	background-color: blue;
+	width: 40%;
+    height: 120px;
+	left:  50%;
+    top: -277px;
+}
+#backgorundEdu{
+	position: relative;
+	color: black;
+	background-color: white;
+	top: -134px;
+}
+#Uni img{
+ width: 300px;
+	height: 190px;
+border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: white;
+  margin: 2%;
+  
+}
+#Uni img:hover {
+  box-shadow: 0 0 40px 6px rgba(0, 140, 186, 0.5);
+}
+#UniInfo{
+	position: relative;
+	color: white;
+	width: 40%;
+    height: 1%;
+	text-align: left;
+	left:  4%;
+	top: 30px;
+}
+#Vidframe{
+	position: relative;
+	bottom: 80px;
+	left:  20%;
+}
+p{
+	color: white;
+}
+#Hobbies img{
+ width: 300px;
+	height: 190px;
+border: 1px solid #ffffff;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: white;
+  
+}
+#Hobbies img:hover {
+  box-shadow: 0 0 40px 6px rgba(0, 140, 186, 0.5);
+}
