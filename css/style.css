@@ -57,7 +57,6 @@ h3 {
   }
   #UniInfo {
 	text-align: center;
-	padding-right: auto;
 	padding-bottom: 80%;
 	margin-left: auto;
     margin-right: auto;
@@ -75,14 +74,11 @@ h3 {
   /* Tablets: */
   #UniInfo {
 	text-align: center;
-	padding-right: auto;
 	padding-bottom: 15%;
 	margin-left: auto;
     margin-right: auto;
   }
   #Vidframe{
-	padding-right: auto;
-	padding-bottom: auto;
 	margin-left: auto;
     margin-right: 35%;
   }
